@@ -8,4 +8,7 @@
 1. ใบกำกับภาษีอย่างย่ออิเล็กทรอนิกส์ (Abbreviated e-Tax Invoice)
 1. ใบแจ้งยกเลิกอิเล็กทรอนิกส์ (Cancellation Note)
 
+# Latest Release
 
+Download version ล่าสุดได้ที่นี่
+[E-Tax Invoice & Receipt version 2.0.0](https://schemas.teda.th/teda/teda-objects/common/e-tax-invoice-receipt/-/archive/v2.0.0/e-tax-invoice-receipt-v2.0.0.zip)
