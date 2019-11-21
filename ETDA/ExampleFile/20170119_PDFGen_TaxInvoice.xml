@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../data/standard/TaxInvoice_Schematron_2p0.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<rsm:TaxInvoice_CrossIndustryInvoice 
+    xmlns:ram="urn:etda:uncefact:data:standard:TaxInvoice_ReusableAggregateBusinessInformationEntity:2"
+    xmlns:rsm="urn:etda:uncefact:data:standard:TaxInvoice_CrossIndustryInvoice:2"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="urn:etda:uncefact:data:standard:TaxInvoice_CrossIndustryInvoice:2 file:../data/standard/TaxInvoice_CrossIndustryInvoice_2p0.xsd">
+    <rsm:ExchangedDocumentContext>
+        <ram:GuidelineSpecifiedDocumentContextParameter>
+            <ram:ID schemeAgencyID="ETDA" schemeVersionID="v2.0">ER3-2560</ram:ID>
+        </ram:GuidelineSpecifiedDocumentContextParameter>
+    </rsm:ExchangedDocumentContext>
+    <rsm:ExchangedDocument>
+        <ram:ID>TIV000012</ram:ID>
+        <ram:Name>ใบกำกับภาษี</ram:Name>
+        <ram:TypeCode>388</ram:TypeCode>
+        <ram:IssueDateTime>2016-06-06T00:00:00</ram:IssueDateTime>
+        <ram:Purpose>การลงราคาต่อหน่วยผิดพลาด</ram:Purpose>
+        <ram:PurposeCode>TIVC99</ram:PurposeCode>
+        <ram:CreationDateTime>2016-06-06T13:59:30.000</ram:CreationDateTime>
+        <ram:IncludedNote>
+            <ram:Subject>หมายเหตุ</ram:Subject>
+            <ram:Content>A2BcyVpQ</ram:Content>
+        </ram:IncludedNote>
+    </rsm:ExchangedDocument>
+    <rsm:SupplyChainTradeTransaction>
+        <ram:ApplicableHeaderTradeAgreement>
+            <ram:SellerTradeParty>
+                <ram:Name>บริษัท สัพเพเหระ จำกัด</ram:Name>
+                <ram:SpecifiedTaxRegistration>
+                    <ram:ID schemeID="TXID">123456789012300000</ram:ID>
+                </ram:SpecifiedTaxRegistration>
+                <ram:DefinedTradeContact>
+                    <ram:EmailURIUniversalCommunication>
+                        <ram:URIID>Accountant1@sphr.co.th</ram:URIID>
+                    </ram:EmailURIUniversalCommunication>
+                    <ram:TelephoneUniversalCommunication>
+                        <ram:CompleteNumber>+66-21231234</ram:CompleteNumber>
+                    </ram:TelephoneUniversalCommunication>
+                </ram:DefinedTradeContact>
+                <ram:PostalTradeAddress>
+                    <ram:PostcodeCode>10260</ram:PostcodeCode>
+                    <ram:LineOne>3/107 ถนนศรีนครินทร์</ram:LineOne>
+                    <ram:CityName>1032</ram:CityName>
+                    <ram:CitySubDivisionName>103202</ram:CitySubDivisionName>
+                    <ram:CountryID schemeID="3166-1 alpha-2">TH</ram:CountryID>
+                    <ram:CountrySubDivisionID>10</ram:CountrySubDivisionID>
+                </ram:PostalTradeAddress>
+            </ram:SellerTradeParty>
+            <ram:BuyerTradeParty>
+                <ram:Name>บริษัท ทำมาค้าขาย จำกัด</ram:Name>
+                <ram:SpecifiedTaxRegistration>
+                    <ram:ID schemeID="TXID">321098765432100017</ram:ID>
+                </ram:SpecifiedTaxRegistration>
+                <ram:DefinedTradeContact>
+                    <ram:EmailURIUniversalCommunication>
+                        <ram:URIID>Accountant1@ithamma.co.th</ram:URIID>
+                    </ram:EmailURIUniversalCommunication>
+                    <ram:TelephoneUniversalCommunication>
+                        <ram:CompleteNumber>+66-29437799(1234)</ram:CompleteNumber>
+                    </ram:TelephoneUniversalCommunication>
+                </ram:DefinedTradeContact>
+                <ram:PostalTradeAddress>
+                    <ram:PostcodeCode>10260</ram:PostcodeCode>
+                    <ram:LineOne>12/65 ถนนสุขุมวิท 64</ram:LineOne>
+                    <ram:CityName>1009</ram:CityName>
+                    <ram:CitySubDivisionName>103202</ram:CitySubDivisionName>
+                    <ram:CountryID schemeID="3166-1 alpha-2">TH</ram:CountryID>
+                    <ram:CountrySubDivisionID>10</ram:CountrySubDivisionID>
+                </ram:PostalTradeAddress>
+            </ram:BuyerTradeParty>         
+            <ram:AdditionalReferencedDocument>
+                <ram:IssuerAssignedID>TIV000005</ram:IssuerAssignedID>
+                <ram:IssueDateTime>2016-06-01T00:00:00</ram:IssueDateTime>
+                <ram:ReferenceTypeCode>ALT</ram:ReferenceTypeCode>
+            </ram:AdditionalReferencedDocument>
+            <ram:AdditionalReferencedDocument>
+                <ram:IssuerAssignedID>TIV000006</ram:IssuerAssignedID>
+                <ram:IssueDateTime>2016-06-02T00:00:00</ram:IssueDateTime>
+                <ram:ReferenceTypeCode>ALT</ram:ReferenceTypeCode>
+            </ram:AdditionalReferencedDocument>
+            <ram:AdditionalReferencedDocument>
+                <ram:IssuerAssignedID>TIV000007</ram:IssuerAssignedID>
+                <ram:IssueDateTime>2016-06-03T00:00:00</ram:IssueDateTime>
+                <ram:ReferenceTypeCode>ALT</ram:ReferenceTypeCode>
+            </ram:AdditionalReferencedDocument>
+            <ram:AdditionalReferencedDocument>
+                <ram:IssuerAssignedID>TIV000008</ram:IssuerAssignedID>
+                <ram:IssueDateTime>2016-06-04T00:00:00</ram:IssueDateTime>
+                <ram:ReferenceTypeCode>ALT</ram:ReferenceTypeCode>
+            </ram:AdditionalReferencedDocument>
+            <ram:AdditionalReferencedDocument>
+                <ram:IssuerAssignedID>TIV000009</ram:IssuerAssignedID>
+                <ram:IssueDateTime>2016-06-05T00:00:00</ram:IssueDateTime>
+                <ram:ReferenceTypeCode>ALT</ram:ReferenceTypeCode>
+            </ram:AdditionalReferencedDocument>
+        </ram:ApplicableHeaderTradeAgreement>
+        <ram:ApplicableHeaderTradeDelivery>
+            <ram:ShipToTradeParty>
+                <ram:DefinedTradeContact>
+                    <ram:PersonName>วิชัย ธรรมมา</ram:PersonName>
+                </ram:DefinedTradeContact>
+            </ram:ShipToTradeParty>
+        </ram:ApplicableHeaderTradeDelivery>
+        <ram:ApplicableHeaderTradeSettlement>
+            <ram:InvoiceCurrencyCode listID="ISO 4217 3A">THB</ram:InvoiceCurrencyCode>
+            <ram:ApplicableTradeTax>
+                 <ram:TypeCode>VAT</ram:TypeCode>
+                <ram:CalculatedRate>7</ram:CalculatedRate>
+                <ram:BasisAmount>14079.00</ram:BasisAmount>
+                <ram:CalculatedAmount>985.53</ram:CalculatedAmount>
+            </ram:ApplicableTradeTax>
+            <ram:SpecifiedTradeAllowanceCharge>
+                <ram:ChargeIndicator>false</ram:ChargeIndicator>
+                <ram:ActualAmount>741.00</ram:ActualAmount>
+                <ram:ReasonCode>95</ram:ReasonCode>
+                <ram:Reason>ส่วนลดจากราคาปกติ</ram:Reason>
+            </ram:SpecifiedTradeAllowanceCharge>
+            <ram:SpecifiedTradeSettlementHeaderMonetarySummation>
+                <ram:LineTotalAmount>14820.00</ram:LineTotalAmount>
+                <ram:TaxBasisTotalAmount>14079.00</ram:TaxBasisTotalAmount>
+                <ram:TaxTotalAmount>985.53</ram:TaxTotalAmount>
+                <ram:GrandTotalAmount>15064.53</ram:GrandTotalAmount>
+            </ram:SpecifiedTradeSettlementHeaderMonetarySummation>
+        </ram:ApplicableHeaderTradeSettlement>
+        <ram:IncludedSupplyChainTradeLineItem>
+            <ram:AssociatedDocumentLineDocument>
+                <ram:LineID>1</ram:LineID>
+            </ram:AssociatedDocumentLineDocument>
+            <ram:SpecifiedTradeProduct>   
+                <ram:ID>AS100000</ram:ID>
+                <ram:GlobalID schemeID="GTIN" schemeAgencyID="GS1">12345678901234</ram:GlobalID>
+                <ram:Name>นวดอโรมา</ram:Name>                
+            </ram:SpecifiedTradeProduct>
+            <ram:SpecifiedLineTradeAgreement>
+                <ram:GrossPriceProductTradePrice>
+                    <ram:ChargeAmount>900.00</ram:ChargeAmount>
+                </ram:GrossPriceProductTradePrice>
+            </ram:SpecifiedLineTradeAgreement>
+            <ram:SpecifiedLineTradeDelivery>
+                <ram:BilledQuantity>2</ram:BilledQuantity>
+            </ram:SpecifiedLineTradeDelivery>
+            <ram:SpecifiedLineTradeSettlement>
+                <ram:SpecifiedTradeAllowanceCharge>
+                    <ram:ChargeIndicator>false</ram:ChargeIndicator>
+                    <ram:ActualAmount>270.00</ram:ActualAmount>
+                    <ram:ReasonCode>95</ram:ReasonCode>
+                    <ram:Reason>ส่วนลดจากราคาปกติ</ram:Reason>
+                </ram:SpecifiedTradeAllowanceCharge>
+                <ram:SpecifiedTradeSettlementLineMonetarySummation>
+                    <ram:NetLineTotalAmount>1530.00</ram:NetLineTotalAmount>
+                    <ram:NetIncludingTaxesLineTotalAmount>1637.10</ram:NetIncludingTaxesLineTotalAmount>
+                </ram:SpecifiedTradeSettlementLineMonetarySummation>
+            </ram:SpecifiedLineTradeSettlement>
+        </ram:IncludedSupplyChainTradeLineItem>        
+        <ram:IncludedSupplyChainTradeLineItem>
+            <ram:AssociatedDocumentLineDocument>
+                <ram:LineID>2</ram:LineID>
+            </ram:AssociatedDocumentLineDocument>
+            <ram:SpecifiedTradeProduct>    
+                <ram:ID>AS100001</ram:ID>
+                <ram:GlobalID schemeID="GTIN" schemeAgencyID="GS1">12345678901235</ram:GlobalID>
+                <ram:Name>ดินสอสี</ram:Name>                
+            </ram:SpecifiedTradeProduct>
+            <ram:SpecifiedLineTradeAgreement>
+                <ram:GrossPriceProductTradePrice>
+                    <ram:ChargeAmount>70.00</ram:ChargeAmount>
+                </ram:GrossPriceProductTradePrice>
+            </ram:SpecifiedLineTradeAgreement>
+            <ram:SpecifiedLineTradeDelivery>
+                <ram:BilledQuantity unitCode="XCS">5</ram:BilledQuantity>
+            </ram:SpecifiedLineTradeDelivery>
+            <ram:SpecifiedLineTradeSettlement>
+                <ram:SpecifiedTradeAllowanceCharge>
+                    <ram:ChargeIndicator>false</ram:ChargeIndicator>
+                    <ram:ActualAmount>60.00</ram:ActualAmount>
+                    <ram:ReasonCode>95</ram:ReasonCode>
+                    <ram:Reason>ส่วนลดจากราคาปกติ</ram:Reason>
+                </ram:SpecifiedTradeAllowanceCharge>
+                <ram:SpecifiedTradeSettlementLineMonetarySummation>
+                    <ram:NetLineTotalAmount>290.00</ram:NetLineTotalAmount>
+                    <ram:NetIncludingTaxesLineTotalAmount>310.30</ram:NetIncludingTaxesLineTotalAmount>
+                </ram:SpecifiedTradeSettlementLineMonetarySummation>
+            </ram:SpecifiedLineTradeSettlement>
+        </ram:IncludedSupplyChainTradeLineItem> 
+        <ram:IncludedSupplyChainTradeLineItem>
+            <ram:AssociatedDocumentLineDocument>
+                <ram:LineID>3</ram:LineID>
+            </ram:AssociatedDocumentLineDocument>
+            <ram:SpecifiedTradeProduct>                
+                <ram:ID>AS100002</ram:ID>
+                <ram:GlobalID schemeID="GTIN" schemeAgencyID="GS1">12345678901236</ram:GlobalID>
+                <ram:Name>ปูกระเบื้องห้องครัว</ram:Name>                
+            </ram:SpecifiedTradeProduct>
+            <ram:SpecifiedLineTradeAgreement>
+                <ram:GrossPriceProductTradePrice>
+                    <ram:ChargeAmount>13000.00</ram:ChargeAmount>
+                </ram:GrossPriceProductTradePrice>
+            </ram:SpecifiedLineTradeAgreement>
+            <ram:SpecifiedLineTradeDelivery>
+                <ram:BilledQuantity>1</ram:BilledQuantity>
+            </ram:SpecifiedLineTradeDelivery>
+            <ram:SpecifiedLineTradeSettlement>
+                <ram:SpecifiedTradeSettlementLineMonetarySummation>
+                    <ram:NetLineTotalAmount>13000.00</ram:NetLineTotalAmount>
+                    <ram:NetIncludingTaxesLineTotalAmount>13910.00</ram:NetIncludingTaxesLineTotalAmount>
+                </ram:SpecifiedTradeSettlementLineMonetarySummation>
+            </ram:SpecifiedLineTradeSettlement>
+        </ram:IncludedSupplyChainTradeLineItem> 
+    </rsm:SupplyChainTradeTransaction>
+</rsm:TaxInvoice_CrossIndustryInvoice>
