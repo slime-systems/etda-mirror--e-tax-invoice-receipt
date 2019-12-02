@@ -11,7 +11,7 @@
 # Latest Release
 
 Download version ล่าสุดได้ที่นี่
-[E-Tax Invoice & Receipt version 2.0.0](https://schemas.teda.th/teda/teda-objects/common/e-tax-invoice-receipt/-/archive/v2.0.0/e-tax-invoice-receipt-v2.0.0.zip)
+[E-Tax Invoice & Receipt version 2.0.0](https://schemas.teda.th/teda/teda-objects/common/e-tax-invoice-receipt/-/archive/2.0.0/e-tax-invoice-receipt-2.0.0.zip)
 
 # Contact Us
 สามารถติดต่อเราได้ที่ eservice@etda.or.th
