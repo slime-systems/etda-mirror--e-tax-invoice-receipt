@@ -13,20 +13,20 @@
 *  	Schema: Invoice_CrossIndustryInvoice
 * 	OID: 2.16.764.1.4.1.1.2.1.1
 2.	ใบรับอิเล็กทรอนิกส์ (e-Receipt)
-•	Schema: Receipt_CrossIndustryInvoice
-•	OID: 2.16.764.1.4.1.1.3.1.1
+*  Schema: Receipt_CrossIndustryInvoice
+*  OID: 2.16.764.1.4.1.1.3.1.1
 3.	ใบกำกับภาษีอิเล็กทรอนิกส์ (e-Tax Invoice)
-•	Schema: TaxInvoice_CrossIndustryInvoice
-•	OID: 2.16.764.1.4.1.1.4.1.1
+*  Schema: TaxInvoice_CrossIndustryInvoice
+*  OID: 2.16.764.1.4.1.1.4.1.1
 4.	ใบเพิ่มหนี้/ใบลดหนี้อิเล็กทรอนิกส์ (Debit/Credit Note)
-•	Schema: DebitCreditNote_CrossIndustryInvoice
-•	OID: 2.16.764.1.4.1.1.5.1.1
+*  Schema: DebitCreditNote_CrossIndustryInvoice
+*  OID: 2.16.764.1.4.1.1.5.1.1
 5.	ใบกำกับภาษีอย่างย่ออิเล็กทรอนิกส์ (Abbreviated e-Tax Invoice)
-•	Schema: AbbreviatedTaxInvoice_CrossIndustryInvoice
-•	OID: 2.16.764.1.4.1.1.6.1.1
+*  Schema: AbbreviatedTaxInvoice_CrossIndustryInvoice
+*  OID: 2.16.764.1.4.1.1.6.1.1
 6.	ใบแจ้งยกเลิกอิเล็กทรอนิกส์ (Cancellation Note)
-•	Schema: CancellationNote_CrossIndustryInvoice
-•	OID: 2.16.764.1.4.1.1.7.1.1
+*  Schema: CancellationNote_CrossIndustryInvoice
+*  OID: 2.16.764.1.4.1.1.7.1.1
 
 
 # Latest Release
