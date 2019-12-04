@@ -8,6 +8,27 @@
 1. ใบกำกับภาษีอย่างย่ออิเล็กทรอนิกส์ (Abbreviated e-Tax Invoice)
 1. ใบแจ้งยกเลิกอิเล็กทรอนิกส์ (Cancellation Note)
 
+ซึ่งประกอบด้วยโครงสร้างข้อมูลและเลข OID ดังต่อไปนี้
+1.	ใบแจ้งหนี้อิเล็กทรอนิกส์ (e-Invoice)
+•	Schema: Invoice_CrossIndustryInvoice
+•	OID: 2.16.764.1.4.1.1.2.1.1
+2.	ใบรับอิเล็กทรอนิกส์ (e-Receipt)
+•	Schema: Receipt_CrossIndustryInvoice
+•	OID: 2.16.764.1.4.1.1.3.1.1
+3.	ใบกำกับภาษีอิเล็กทรอนิกส์ (e-Tax Invoice)
+•	Schema: TaxInvoice_CrossIndustryInvoice
+•	OID: 2.16.764.1.4.1.1.4.1.1
+4.	ใบเพิ่มหนี้/ใบลดหนี้อิเล็กทรอนิกส์ (Debit/Credit Note)
+•	Schema: DebitCreditNote_CrossIndustryInvoice
+•	OID: 2.16.764.1.4.1.1.5.1.1
+5.	ใบกำกับภาษีอย่างย่ออิเล็กทรอนิกส์ (Abbreviated e-Tax Invoice)
+•	Schema: AbbreviatedTaxInvoice_CrossIndustryInvoice
+•	OID: 2.16.764.1.4.1.1.6.1.1
+6.	ใบแจ้งยกเลิกอิเล็กทรอนิกส์ (Cancellation Note)
+•	Schema: CancellationNote_CrossIndustryInvoice
+•	OID: 2.16.764.1.4.1.1.7.1.1
+
+
 # Latest Release
 
 Download version ล่าสุดได้ที่นี่
