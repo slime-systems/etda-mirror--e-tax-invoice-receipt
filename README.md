@@ -10,8 +10,8 @@
 
 ซึ่งประกอบด้วยโครงสร้างข้อมูลและเลข OID ดังต่อไปนี้
 1.	ใบแจ้งหนี้อิเล็กทรอนิกส์ (e-Invoice)
-•	Schema: Invoice_CrossIndustryInvoice
-•	OID: 2.16.764.1.4.1.1.2.1.1
+*  	Schema: Invoice_CrossIndustryInvoice
+* 	OID: 2.16.764.1.4.1.1.2.1.1
 2.	ใบรับอิเล็กทรอนิกส์ (e-Receipt)
 •	Schema: Receipt_CrossIndustryInvoice
 •	OID: 2.16.764.1.4.1.1.3.1.1
