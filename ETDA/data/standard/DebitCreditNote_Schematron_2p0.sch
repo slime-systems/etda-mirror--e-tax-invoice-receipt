@@ -392,8 +392,8 @@
         
         <!-- @02Sep2019 : Add rule check NIDN  -->
         <sch:report test="(ram:ID/@schemeID = 'NIDN') and (string-length(ram:ID) = 13 and not(number(ram:ID)))">
-            DCN-InvoicerTradeParty-008 กรณีระบุประเภทเลขประจำตัวผู้เสียภาษีอากรของผู้ซื้อ (schemeID) เป็น NIDN ต้องมีจำนวนตัวเลขเท่ากับ 13 หลัก (เลขประจำตัวประชาชน 13 หลัก)
-            (BuyerTradeParty/SpecifiedTaxRegistration/ID must length equal to 13 since schemeID is NIDN)
+            DCN-InvoicerTradeParty-008 กรณีระบุประเภทเลขประจำตัวผู้เสียภาษีอากรของผู้ออกเอกสารแทน (schemeID) เป็น NIDN ต้องมีจำนวนตัวเลขเท่ากับ 13 หลัก (เลขประจำตัวประชาชน 13 หลัก)
+            (InvoicerTradeParty/SpecifiedTaxRegistration/ID must length equal to 13 since schemeID is NIDN)
         </sch:report> 
     </sch:rule>
     
